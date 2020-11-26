@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container {
+  background-color: #e0cdcd;
+  width: 50rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .photo {
+  background-image: url(/img/desert.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  height: 100%;
+}
+
+main .container .content {
+  width: 25rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .content h1 {
+  font-size: 60px;
+}
+
+main .container .content .text {
+  width: 100%;
+}
+
+main .container .content .text h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+main .container .content .text p {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .container {
+    background-color: rgba(204, 186, 186, 0.945);
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .container .photo {
+    background-image: url(/img/desert.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  main .container .content {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .container .content h1 {
+    font-size: 60px;
+  }
+  main .container .content .text {
+    width: 100%;
+  }
+  main .container .content .text h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  main .container .content .text p {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
